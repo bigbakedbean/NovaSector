@@ -831,3 +831,10 @@
 	playsound(src, 'sound/mobs/non-humanoids/gorilla/gorilla.ogg', 100, FALSE)
 	spasm_animation(5 SECONDS)
 	qdel(nana)
+
+/obj/item/toy/plush/expie
+	name = "experiment plushie" // ported from ss14, made by Orsoniks (rivey0 on discord)
+	desc = "A plushie of a canid of sorts, it yearns to be detonated on a landmine."
+	icon_state = "plushie_expie"
+	attack_verb_continuous = list("whines at", "claws")
+	attack_verb_simple = list("whine at", "claw")
